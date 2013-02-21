@@ -1,0 +1,10 @@
+Package: zmqc
+Version: 0.1-0
+Title: 0MQ-based connections for R
+Author: Simon Urbanek <Simon.Urbanek@r-project.org>
+Maintainer: Simon Urbanek <Simon.Urbanek@r-project.org>
+Depends: R (>= 3.0.0)
+Description: This package provides connections that can be used to interface 0MQ streams
+License: GPL-2 | GPL-3
+URL: http://www.rforge.net/zmqc
+SystemRequirements: libzmq

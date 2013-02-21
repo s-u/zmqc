@@ -1,0 +1,2 @@
+useDynLib(zmqc, zmqc_pubsub)
+export(zmqc)
