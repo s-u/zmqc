@@ -9,10 +9,10 @@
   beginning with "r" create a SUB connection.
 }
 \usage{
-  zmqc(url, mode = "")
+  zmqc(endpoint, mode = "")
 }
 \arguments{
-  \item{url}{0MQ URL defining the location of the connection
+  \item{endpoint}{string defining the 0MQ endpoint of the connection
     consisting of \code{<transport>://<address>}. See 0MQ documentation
     for details, but most common transports are \code{tcp}, \code{ipc},
     \code{inproc}, \code{pgm} and \code{epgm}.

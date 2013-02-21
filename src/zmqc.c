@@ -11,7 +11,7 @@
 #include <stdlib.h>
 
 #include <Rinternals.h>
-#include <R_ext/connections.h>
+#include <R_ext/Connections.h>
 #if ! defined(R_CONNECTIONS_VERSION) || R_CONNECTIONS_VERSION != 1
 #error "Unsupported connections API version"
 #endif
